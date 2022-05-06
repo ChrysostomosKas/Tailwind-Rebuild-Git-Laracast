@@ -52,8 +52,8 @@
                     </svg>
                 </a>
                 <a href="#" class="flex items-center hover:text-gray-400">
-                    <img src="https://avatars0.githubusercontent.com/u/4316355?s=60&v=4" class="w-7 h-7 rounded-full"
-                         alt="avatar">
+                    <img src="https://avatars.githubusercontent.com/u/57672898?s=40&amp;v=4" alt="avatar"
+                         size="20" data-view-component="true" class="w-5 h-5 rounded-full">
                     <svg class="w-3 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                          viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M19 9l-7 7-7-7"></path>
@@ -130,44 +130,386 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent hover:border-gray-400 transition ease-in-out duration-150 px-4 pb-3">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path>
+                    </svg>
                     <span class="ml-2">Issues</span>
                     <div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">106</div>
                 </a>
             </li>
             <li>
-                <a href="#" class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+                    </svg>
                     <span class="ml-2">Pull Requests</span>
                     <div class="text-xs rounded-lg bg-gray-300 px-2 ml-1">25</div>
                 </a>
             </li>
             <li class="hidden lg:block">
-                <a href="#" class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path>
+                    </svg>
                     <span class="ml-2">Discussions</span>
                 </a>
             </li>
             <li class="hidden lg:block">
-                <a href="#" class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
+                    </svg>
                     <span class="ml-2">Actions</span>
                 </a>
             </li>
             <li class="hidden lg:block">
-                <a href="#" class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
+                    </svg>
                     <span class="ml-2">Security</span>
                 </a>
             </li>
             <li class="hidden lg:block">
-                <a href="#" class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
-                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
+                <a href="#"
+                   class="flex items-center border-b-2 border-transparent px-4 pb-3 hover:border-gray-400 transition ease-in duration-150">
+                    <svg class="w-4 fill-current text-gray-600" classes="UnderlineNav-octicon" display="none inline"
+                         viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+                    </svg>
                     <span class="ml-2">Insights</span>
                 </a>
             </li>
-        </ul>
+        </ul> {{--End repo nav--}}
+        <div class="container mx-auto my-8 px-4 flex flex   ">
+            <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
+                <div class="branch-navigation flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                        <button
+                            class="border border-gray-400 rounded-md px-4 py-1 hover:bg-gray-200 flex items-center space-x-2">
+                            <svg class="fill-current text-gray-600 w-4" viewBox="0 0 16 16" version="1.1" width="16"
+                                 height="16" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                            </svg>
+                            <div class="font-semibold">master</div>
+                            <svg class="w-3 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                 stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <a href="#" class="flex items-center space-x-2 px-3 py-1 group">
+                            <svg class="fill-current text-gray-600 group-hover:text-blue-600 w-4" viewBox="0 0 16 16"
+                                 version="1.1" width="16"
+                                 height="16" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+                            </svg>
+                            <span class="text-gray-700 group-hover:text-blue-600">
+                                <span class="font-semibold">1 </span>
+                                <span class="text-gray-600">branches</span>
+                            </span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-2 px-3 py-1 group">
+                            <svg class="fill-current text-gray-600 group-hover:text-blue-600 w-4" text="gray"
+                                 viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+                            </svg>
+                            <span class="text-gray-700 group-hover:text-blue-600">
+                                <span class="font-semibold">0 </span>
+                                <span class="text-gray-600">tags</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button
+                            class="border border-gray-400 rounded-md px-3 py-1 hover:bg-gray-200 flex items-center space-x-2">
+                            <div class="font-semibold">Go to file</div>
+                        </button>
+                        <button
+                            class="border border-gray-400 rounded-md px-3 py-1 hover:bg-gray-200 flex items-center space-x-1">
+                            <div class="font-semibold">Add file</div>
+                            <svg class="w-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                      clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                        <button
+                            class="font-semibold border border-gray-400 rounded-md text-white bg-green-600 hover:bg-green-700 px-4 py-1 flex items-center space-x-2">
+                            <svg class="fill-current text-gray-600 w-4" viewBox="0 0 16 16" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
+                            </svg>
+                            <div>Code</div>
+                            <svg class="w-3 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                 stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div> {{--End branch nav--}}
+
+                <div
+                    class="commits-container bg-blue-100 rounded-mb rounded-b-none border border-blue-200 border-b-0 flex items-center justify-between px-4 py-4 mt-5">
+                    <div class="flex items-center space-x-2">
+                        <a href="#">
+                            <img src="https://avatars.githubusercontent.com/u/57672898?s=40&amp;v=4" alt="avatar"
+                                 size="20" data-view-component="true" class="w-6 h-6 rounded-full">
+                        </a>
+                        <a href="#" class="font-semibold hover:underline">ChrysostomosKas</a>
+                        <a href="#" class="font-semibold hover:underline hover:text-blue-600">1.5.1</a>
+                    </div>
+                    <div class="flex items-end">
+                        <a href="#">
+                            <svg class="w-4 fill-current text-green-500" aria-label="3 / 3 checks OK"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2">8a8f481</a>
+                        <a href="#" class="font-gray-600 hover:underline hover:text-blue-500 ml-2">3 hours ago</a>
+                        <a href="#" class="flex items-center ml-3">
+                            <svg class="w-4 fill-current text-gray-600" text="gray" viewBox="0 0 16 16" version="1.1"
+                                 aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
+                            </svg>
+                            <span class="ml-1">
+                                <span class="font-semibold">5</span>
+                                commits
+                            </span>
+                        </a>
+                    </div>
+                </div> {{--End commits-container--}}
+
+                <div
+                    class="file-explorer rounded-md rounded-t-none border border-gray-400 text-gray-700 divide-y divide-gray-400">
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">app</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">bootstrap</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">config</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">database</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">lang/en</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">public</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">resources</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">routes</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">storage</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2">
+                        <div class="w-4/12 flex items-center">
+                            <svg class="w-4 fill-current text-blue-400" color="blue-3" aria-label="Directory"
+                                 viewBox="0 0 16 16" role="img">
+                                <path fill-rule="evenodd"
+                                      d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-600 ml-3">test</a>
+                        </div>
+                        <div class="w-6/12 truncate hidden lg:block">
+                            <a href="#"
+                               class="hover:underline hover:text-blue-600">Initial commit
+                            </a></div>
+                        <div class="w-4/12 lg:w-2/12 text-right">3 hours ago</div>
+                    </div>
+                </div> {{--end file-explorer--}}
+
+                <div class="readme-container rounded-md border border-gray-400 px-4 py-4 mt-4">
+                    <h4 class="font-semibold">README.md</h4>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloribus impedit tempore?
+                        Consequatur deserunt dolores minus non perspiciatis quisquam quo rem reprehenderit voluptas?
+                        Dolor expedita quis sapiente totam vero! Accusantium ad aliquid asperiores blanditiis commodi
+                        eius eos et, eveniet in itaque labore neque non, nostrum odio odit optio praesentium, quae quia
+                        reprehenderit sapiente sequi sit unde voluptates? Dolore rem sunt velit! Ad aperiam dicta
+                        doloribus, ea enim eos minus, nihil non odio provident, quisquam rerum tenetur voluptatem? A
+                        amet assumenda autem consequatur cum deleniti distinctio dolores eius eligendi esse est et
+                        eveniet expedita explicabo fuga laboriosam maxime nobis nulla odio pariatur perspiciatis placeat
+                        possimus quas quis quo repellendus, sequi similique sint ullam unde. Ab aliquam animi
+                        consequatur culpa cumque distinctio dolor dolorem dolorum eligendi error est et eveniet expedita
+                        inventore iure natus nostrum nulla obcaecati pariatur quis repellendus soluta velit, voluptas!
+                        Amet asperiores aspernatur consequatur consequuntur et explicabo facilis fugiat impedit magnam
+                        mollitia natus necessitatibus non numquam officia, qui, quibusdam quidem reprehenderit rerum
+                        sapiente similique sit sunt tempora tempore vel veritatis. At commodi, culpa dolores eaque ex
+                        modi molestiae molestias nam necessitatibus non odio provident quae quasi quibusdam repellat
+                        rerum sequi suscipit vel! Nihil perspiciatis possimus sapiente temporibus ullam voluptatibus?
+                    </div>
+                </div> {{--End readme-container--}}
+            </div> {{--End file-explorer container--}}
+            <div class="sidebar w-1/4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda dolorum eligendi, est
+                illo magnam modi numquam quas quidem reprehenderit repudiandae sunt voluptas? Accusantium ad alias
+                asperiores consectetur cupiditate dolorem et eum harum ipsam laudantium maiores molestias nemo neque
+                nesciunt nisi nobis non nostrum omnis optio placeat quaerat quia sequi similique tempora, ut vero
+                voluptas voluptatem! Accusamus at ducimus, expedita explicabo fugit ipsam minus natus, odit omnis
+                possimus quam voluptate! Ab ad alias aperiam at aut beatae delectus doloremque dolores eos est, et
+                excepturi exercitationem ipsum libero minus modi nemo nisi provident quo repellendus reprehenderit
+                similique soluta totam velit vero.
+            </div> {{--End sidebar--}}
+        </div>
+        <footer class="container mx-auto text-xs border-t border-gray-400 py-10 flex items-center justify-between">
+            <ul class="flex items-center space-x-12">
+                <div class="mx-16 hidden lg:block">
+                    <a href="#">
+                        <svg class="w-6 fill-current text-gray-400 hover:text-gray-600" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </div>
+                <li>&copy; 2022 GitHub, Inc.</li>
+                <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Privacy</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Security</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Status</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Docs</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Contact GitHub</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Pricing</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">API</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Training</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Blog</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">About</a></li>
+            </ul>
+        </footer>
     </div>
 </div>
 </body>
