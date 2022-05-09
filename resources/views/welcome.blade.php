@@ -18,14 +18,14 @@
                     </svg>
                 </a>
 
-                <div class="relative">
+                <div class="hidden lg:block relative">
                     <input type="text" class="rounded bg-gray-700 placeholder-white w-72 px-3 py-1"
                            placeholder="Search or jump to...">
                     <div class="absolute top-0 right-0 flex items-center h-full">
                         <div class="border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2">/</div>
                     </div>
                 </div>
-                <ul class="flex items-center font-semi bold space-x-4">
+                <ul class="hidden lg:flex items-center font-semi bold space-x-4">
                     <li><a href="#" class="hover:text-gray-400">Pull Requests</a></li>
                     <li><a href="#" class="hover:text-gray-400">Issues</a></li>
                     <li><a href="#" class="hover:text-gray-400">Marketplace</a></li>
@@ -61,7 +61,7 @@
                 </a>
             </div>
         </nav>
-        <div class="repo-stats flex items-center justify-between px-8 py-4">
+        <div class="repo-stats flex flex-col lg:flex-row items-center justify-between px-8 py-4">
             <div class="flex">
                 <svg class="w-5 fill-current text-gray-600" viewBox="0 0 16 16" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -198,7 +198,7 @@
                 </a>
             </li>
         </ul> {{--End repo nav--}}
-        <div class="container mx-auto my-8 px-4 flex flex   ">
+        <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
             <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
                 <div class="branch-navigation flex items-center justify-between">
                     <div class="flex items-center space-x-3">
@@ -215,7 +215,7 @@
                                 <path d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <a href="#" class="flex items-center space-x-2 px-3 py-1 group">
+                        <a href="#" class="hidden lg:flex items-center space-x-2 px-3 py-1 group">
                             <svg class="fill-current text-gray-600 group-hover:text-blue-600 w-4" viewBox="0 0 16 16"
                                  version="1.1" width="16"
                                  height="16" aria-hidden="true">
@@ -227,7 +227,7 @@
                                 <span class="text-gray-600">branches</span>
                             </span>
                         </a>
-                        <a href="#" class="flex items-center space-x-2 px-3 py-1 group">
+                        <a href="#" class="hidden py-1 lg:flex items-center space-x-2 group">
                             <svg class="fill-current text-gray-600 group-hover:text-blue-600 w-4" text="gray"
                                  viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
                                 <path fill-rule="evenodd"
@@ -239,7 +239,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="flex items-center space-x-2">
+                    <div class="hidden lg:flex items-center space-x-2">
                         <button
                             class="border border-gray-400 rounded-md px-3 py-1 hover:bg-gray-200 flex items-center space-x-2">
                             <div class="font-semibold">Go to file</div>
@@ -286,7 +286,7 @@
                                       d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
                             </svg>
                         </a>
-                        <a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2">8a8f481</a>
+                        <a href="#" class="font-mono text-xs text-gray-600 hover:underline hover:text-blue-500 ml-2 hidden lg:block">8a8f481</a>
                         <a href="#" class="font-gray-600 hover:underline hover:text-blue-500 ml-2">3 hours ago</a>
                         <a href="#" class="flex items-center ml-3">
                             <svg class="w-4 fill-current text-gray-600" text="gray" viewBox="0 0 16 16" version="1.1"
@@ -296,7 +296,7 @@
                             </svg>
                             <span class="ml-1">
                                 <span class="font-semibold">5</span>
-                                commits
+                                <span class="hidden lg:inline">commits</span>
                             </span>
                         </a>
                     </div>
@@ -626,28 +626,25 @@
 
                 <div class="readme-container rounded-md border border-gray-400 px-4 py-4 mt-4">
                     <h4 class="font-semibold">README.md</h4>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloribus impedit tempore?
-                        Consequatur deserunt dolores minus non perspiciatis quisquam quo rem reprehenderit voluptas?
-                        Dolor expedita quis sapiente totam vero! Accusantium ad aliquid asperiores blanditiis commodi
-                        eius eos et, eveniet in itaque labore neque non, nostrum odio odit optio praesentium, quae quia
-                        reprehenderit sapiente sequi sit unde voluptates? Dolore rem sunt velit! Ad aperiam dicta
-                        doloribus, ea enim eos minus, nihil non odio provident, quisquam rerum tenetur voluptatem? A
-                        amet assumenda autem consequatur cum deleniti distinctio dolores eius eligendi esse est et
-                        eveniet expedita explicabo fuga laboriosam maxime nobis nulla odio pariatur perspiciatis placeat
-                        possimus quas quis quo repellendus, sequi similique sint ullam unde. Ab aliquam animi
-                        consequatur culpa cumque distinctio dolor dolorem dolorum eligendi error est et eveniet expedita
-                        inventore iure natus nostrum nulla obcaecati pariatur quis repellendus soluta velit, voluptas!
-                        Amet asperiores aspernatur consequatur consequuntur et explicabo facilis fugiat impedit magnam
-                        mollitia natus necessitatibus non numquam officia, qui, quibusdam quidem reprehenderit rerum
-                        sapiente similique sit sunt tempora tempore vel veritatis. At commodi, culpa dolores eaque ex
-                        modi molestiae molestias nam necessitatibus non odio provident quae quasi quibusdam repellat
-                        rerum sequi suscipit vel! Nihil perspiciatis possimus sapiente temporibus ullam voluptatibus?
-                    </div>
+                    <article class="prose lg:prose-xl ">
+                        <p>
+                            <a href="https://tailwindcss.com/" target="_blank">
+                                <img alt="Tailwind CSS" width="350" src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg">
+                            </a><br>
+                            A utility-first CSS framework for rapidly building custom user interfaces.
+                        </p>
+
+                        <p>
+                            <a href="https://travis-ci.org/tailwindcss/tailwindcss"><img src="https://img.shields.io/travis/tailwindcss/tailwindcss/master.svg" alt="Build Status"></a>
+                            <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
+                            <a href="https://github.com/tailwindcss/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
+                            <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+                        </p>
+                    </article>
                 </div> {{--End readme-container--}}
             </div> {{--End file-explorer container--}}
-            <div class="sidebar w-1/4">
-                <div class="about">
+            <div class="sidebar w-full lg:w-1/4">
+                <div class="about mt-4 lg:mt-0">
                     <h4 class="text-base font-semibold">About</h4>
                     <p class="text-base mt-4">No description, website, or topics provided.</p>
                     <div class="flex items-center space-x-2 mt-4">
@@ -829,29 +826,27 @@
                 </div> {{--End language--}}
             </div> {{--End sidebar--}}
         </div>
-        <footer class="container mx-auto text-xs border-t border-gray-400 py-10 flex items-center justify-between">
-            <ul class="flex items-center space-x-12">
-                <div class="mx-16 hidden lg:block">
-                    <a href="#">
-                        <svg class="w-6 fill-current text-gray-400 hover:text-gray-600" viewBox="0 0 16 16"
-                             aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg>
-                    </a>
-                </div>
-                <li>&copy; 2022 GitHub, Inc.</li>
-                <li><a href="#" class="text-blue-600 hover:underline">Terms</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Privacy</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Security</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Status</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Docs</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Contact GitHub</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Pricing</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">API</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Training</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">Blog</a></li>
-                <li><a href="#" class="text-blue-600 hover:underline">About</a></li>
+        <footer class="container mx-auto text-xs border-t border-gray-400 py-10 flex flex-col lg:flex-row items-center justify-between">
+            <ul class="flex items-center space-x-6 lg:space-x-12">
+                <li>&copy; 2020 GitHub, Inc.</li>
+                <li><a href="#" class="text-blue-500 hover:underline">Terms</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Privacy</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Security</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Status</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Help</a></li>
+            </ul>
+            <div class="mx-16 hidden lg:block">
+                <a href="#">
+                    <svg class="w-6 fill-current text-gray-400 hover:text-gray-600" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                </a>
+            </div>
+            <ul class="flex items-center space-x-6 lg:space-x-12 mt-4 lg:mt-0">
+                <li><a href="#" class="text-blue-500 hover:underline">Contact GitHub</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Pricing</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">API</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Training</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Blog</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">About</a></li>
             </ul>
         </footer>
     </div>
